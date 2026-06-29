@@ -217,6 +217,29 @@
             font-size: 1em;
         }
 
+        .change-tags {
+            display: flex;
+            gap: 5px;
+            flex-wrap: wrap;
+            margin-bottom: 5px;
+        }
+        .change-tag {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-size: 0.72em;
+            font-weight: 700;
+            letter-spacing: 0.04em;
+        }
+        .change-tag-fix         { background: rgba(253,126,20,0.85); color: #fff; }
+        .change-tag-feature     { background: rgba(40,167,69,0.85); color: #fff; }
+        .change-tag-breaking    { background: rgba(220,53,69,0.9); color: #fff; }
+        .change-tag-improvement { background: rgba(102,126,234,0.85); color: #fff; }
+        body.day .change-tag-fix         { background: #fd7e14; }
+        body.day .change-tag-feature     { background: #28a745; }
+        body.day .change-tag-breaking    { background: #dc3545; }
+        body.day .change-tag-improvement { background: #5060c8; }
+
         .change-detail {
             color: #5a7090;
             margin-left: 14px;
@@ -410,6 +433,36 @@
             
                     <div class="patch-note">
                         <div class="patch-header">
+                            <h2>Early Access 0.2.1.7</h2>
+                            <span class="patch-date">2026-06-29</span>
+                        </div>
+
+                        
+
+                        <ul class="change-list">
+                            
+                                <li class="change-item">
+                                    
+                                    <strong>• Captcha</strong>
+                                    
+                                        <div class="change-detail">Reduced captcha length from 6–10 to 6–8 characters</div>
+                                    
+                                    
+                                </li>
+                            
+                        </ul>
+
+                        
+                            <div class="important-note">
+                                Warning: If you find this captcha too hard, please reconsider your life choices.
+                            </div>
+                        
+
+                        
+                    </div>
+                
+                    <div class="patch-note">
+                        <div class="patch-header">
                             <h2>Early Access 0.2.1.6</h2>
                             <span class="patch-date">2026-06-29</span>
                         </div>
@@ -423,6 +476,7 @@
                         <ul class="change-list">
                             
                                 <li class="change-item">
+                                    
                                     <strong>• Skill Tree</strong>
                                     
                                         <div class="change-detail">Added scaling details and improved descriptions.</div>
@@ -452,6 +506,7 @@
                         <ul class="change-list">
                             
                                 <li class="change-item">
+                                    
                                     <strong>• Voting</strong>
                                     
                                         <div class="change-detail">Fixed an issue where users did not receive their vote rewards after voting.</div>
@@ -481,6 +536,7 @@
                         <ul class="change-list">
                             
                                 <li class="change-item">
+                                    
                                     <strong>• Leaderboard</strong>
                                     
                                         <div class="change-detail">Now displays your current rank.</div>
@@ -510,6 +566,7 @@
                         <ul class="change-list">
                             
                                 <li class="change-item">
+                                    
                                     <strong>• Removed</strong>
                                     
                                         <div class="change-detail">Stock Market button. There are no plans to bring this feature back.</div>
@@ -518,6 +575,7 @@
                                 </li>
                             
                                 <li class="change-item">
+                                    
                                     <strong>• Added</strong>
                                     
                                         <div class="change-detail">Changelog button for easier access to updates.</div>
@@ -547,6 +605,7 @@
                         <ul class="change-list">
                             
                                 <li class="change-item">
+                                    
                                     <strong>• Bug Fix</strong>
                                     
                                         <div class="change-detail">Fixed an issue where common loot boxes were granting higher rewards and drop rates than intended.</div>
@@ -576,6 +635,7 @@
                         <ul class="change-list">
                             
                                 <li class="change-item">
+                                    
                                     <strong>• Removed</strong>
                                     
                                         <div class="change-detail">Removed coins from the main page. While the issues were fixable, the feature wasn’t necessary.</div>
@@ -607,6 +667,7 @@
                         <ul class="change-list">
                             
                                 <li class="change-item">
+                                    
                                     <strong>• Bug Fixes</strong>
                                     
                                         <div class="change-detail">Fixed an issue where the Tree image appeared outside the embed.</div>
@@ -617,6 +678,7 @@
                                 </li>
                             
                                 <li class="change-item">
+                                    
                                     <strong>• Improvements / Changes</strong>
                                     
                                         <div class="change-detail">Added additional information to the Shop, including Coins, Leaves.</div>
@@ -654,6 +716,7 @@
                         <ul class="change-list">
                             
                                 <li class="change-item">
+                                    
                                     <strong>• Palm Tree Skin</strong>
                                     
                                         <div class="change-detail">Leaf price change 105.210 -> 128.210</div>
@@ -687,6 +750,7 @@
                         <ul class="change-list">
                             
                                 <li class="change-item">
+                                    
                                     <strong>• Shop Release!</strong>
                                     
                                         <div class="change-detail">Tree Skins (Background etc. will follow)</div>
@@ -699,6 +763,7 @@
                                 </li>
                             
                                 <li class="change-item">
+                                    
                                     <strong>• Max Level Increase 39 -> 44</strong>
                                     
                                         <div class="change-detail">Max Level Increase supports the following skins: Sheep,Birch,Palm.</div>
@@ -709,6 +774,7 @@
                                 </li>
                             
                                 <li class="change-item">
+                                    
                                     <strong>• Upgrade Page</strong>
                                     
                                         <div class="change-detail">Now displays when each upgrade unlocks and when the maximum level increases.</div>
@@ -717,6 +783,7 @@
                                 </li>
                             
                                 <li class="change-item">
+                                    
                                     <strong>• Reminder System</strong>
                                     
                                         <div class="change-detail">Improved Database Performance</div>
@@ -761,6 +828,7 @@
                         <ul class="change-list">
                             
                                 <li class="change-item">
+                                    
                                     <strong>• Search System Update</strong>
                                     
                                         <div class="change-detail">Code improvements for search system</div>
@@ -798,6 +866,7 @@
                         <ul class="change-list">
                             
                                 <li class="change-item">
+                                    
                                     <strong>• Database Optimization & Security</strong>
                                     
                                         <div class="change-detail">Your data is now backed up automaticly every day (last 7 days kept safe)</div>
@@ -808,6 +877,7 @@
                                 </li>
                             
                                 <li class="change-item">
+                                    
                                     <strong>• New Benefit for Memberships</strong>
                                     
                                         <div class="change-detail">Subsurface Chain Chance Increased by certain %</div>
@@ -816,6 +886,7 @@
                                 </li>
                             
                                 <li class="change-item">
+                                    
                                     <strong>• Skin Display Fix</strong>
                                     
                                         <div class="change-detail">Fixed a bug where tree skins didn’t show correctly — they now display properly as intended.</div>
@@ -853,6 +924,7 @@
                         <ul class="change-list">
                             
                                 <li class="change-item">
+                                    
                                     <strong>• Added Dark Mode to the Patch Notes Website</strong>
                                     
                                         <div class="change-detail">Not mentioned in the Discord patch notes, as the change is not relevant enough.</div>
@@ -882,6 +954,7 @@
                         <ul class="change-list">
                             
                                 <li class="change-item">
+                                    
                                     <strong>• Moved the Discord patch notes to the new website</strong>
                                     
                                         <div class="change-detail">Reason: Improved readability on both mobile and desktop</div>
@@ -915,6 +988,7 @@
                         <ul class="change-list">
                             
                                 <li class="change-item">
+                                    
                                     <strong>• New Developer Command /maintenance</strong>
                                     
                                         <div class="change-detail">Replaces the generic update message with a dedicated maintenance notice that includes an estimated completion time.</div>
@@ -925,6 +999,7 @@
                                 </li>
                             
                                 <li class="change-item">
+                                    
                                     <strong>• Fixed & Improved Reminders</strong>
                                     
                                         <div class="change-detail">If a user has disabled direct messages, reminders will now automatically be disabled as well.</div>
@@ -933,6 +1008,7 @@
                                 </li>
                             
                                 <li class="change-item">
+                                    
                                     <strong>• Reworked Skill Reset System</strong>
                                     
                                         <div class="change-detail">Based on community feedback and a logic issue on my site, players previously had to pay to reset their skill points without receiving any leaf refunds — this has now been changed.</div>
@@ -982,7 +1058,7 @@
 </div>
 
 <script id="changelogsData" type="application/json">
-[{"version":"Early Access 0.2.1.6","date":"2026-06-29","sectionTitle":"🛠️Minor Change","changes":[{"title":"Skill Tree","details":["Added scaling details and improved descriptions."],"subChanges":[]}],"importantNote":"","footerText":""},{"version":"Early Access 0.2.1.5","date":"2026-06-28","sectionTitle":"🛠️Hot Fix","changes":[{"title":"Voting","details":["Fixed an issue where users did not receive their vote rewards after voting."],"subChanges":[]}],"importantNote":"","footerText":""},{"version":"Early Access 0.2.1.4","date":"2026-04-30","sectionTitle":"🛠️Minor Change","changes":[{"title":"Leaderboard","details":["Now displays your current rank."],"subChanges":[]}],"importantNote":"","footerText":""},{"version":"Early Access 0.2.1.3","date":"2026-03-17","sectionTitle":"🛠️Minor Change","changes":[{"title":"Removed","details":["Stock Market button. There are no plans to bring this feature back."],"subChanges":[]},{"title":"Added","details":["Changelog button for easier access to updates."],"subChanges":[]}],"importantNote":"","footerText":""},{"version":"Early Access 0.2.1.2","date":"2026-03-17","sectionTitle":"🛠️Hot Fix","changes":[{"title":"Bug Fix","details":["Fixed an issue where common loot boxes were granting higher rewards and drop rates than intended."],"subChanges":[]}],"importantNote":"","footerText":""},{"version":"Early Access 0.2.1.1","date":"2026-03-08","sectionTitle":"🛠️Minor Change","changes":[{"title":"Removed","details":["Removed coins from the main page. While the issues were fixable, the feature wasn’t necessary."],"subChanges":[]}],"importantNote":"","footerText":"Corrected the 0.2.1.0 changelog."},{"version":"Early Access 0.2.1.0","date":"2026-03-08","sectionTitle":"🛠️Minor Patch","changes":[{"title":"Bug Fixes","details":["Fixed an issue where the Tree image appeared outside the embed.","Fixed an issue where reminders were not deactivated if the bot could not send a direct message to the user."],"subChanges":[]},{"title":"Improvements / Changes","details":["Added additional information to the Shop, including Coins, Leaves.","Coins are now also shown on the main page.","Membership Lootbox rewards now show their actual icons instead of the generic 🎁 icon.","Renamed “Patch Notes” → “Changelogs” to better reflect the purpose of the updates."],"subChanges":[]}],"importantNote":"","footerText":"Pssst... <a href=\"https://ko-fi.com/growyourtree/tiers\" target=\"_blank\">Memberships</a>"},{"version":"Early Access 0.2.0.1","date":"2026-03-06","sectionTitle":"🛠️Balance Change","changes":[{"title":"Palm Tree Skin","details":["Leaf price change 105.210 -> 128.210"],"subChanges":[]}],"importantNote":"Apologies for the delayed posting of the patch notes. Don’t forget to support the developer by getting a <a href=\"https://ko-fi.com/growyourtree/tiers\" target=\"_blank\">membership</a> and <a href=\"https://discord.gg/4YkUdKQCda\" target=\"_blank\">join our official Discord server</a>!","footerText":""},{"version":"Early Access - 0.2.0.0","date":"2026-03-05","sectionTitle":"🚀Update","changes":[{"title":"Shop Release!","details":["Tree Skins (Background etc. will follow)","Items (Planned for the next Update)","Pets - Comming soon"],"subChanges":[]},{"title":"Max Level Increase 39 -> 44","details":["Max Level Increase supports the following skins: Sheep,Birch,Palm.","Improved roots graphics for Levels 35–39."],"subChanges":[]},{"title":"Upgrade Page","details":["Now displays when each upgrade unlocks and when the maximum level increases."],"subChanges":[]},{"title":"Reminder System","details":["Improved Database Performance"],"subChanges":[{"title":"New Reminder","details":["Allow yourself to be reminded when you can vote again"]}]}],"importantNote":"Apologies for the delayed posting of the patch notes. Don’t forget to support the developer by getting a <a href=\"https://ko-fi.com/growyourtree/tiers\" target=\"_blank\">membership</a> and <a href=\"https://discord.gg/4YkUdKQCda\" target=\"_blank\">join our official Discord server</a>!","footerText":""},{"version":"Early Access - 0.1.4.0","date":"2026-02-10","sectionTitle":"🛠️ Minor Patch","changes":[{"title":"Search System Update","details":["Code improvements for search system","You now earn XP for claiming searches! Upgrades affect XP gain, but do not affect leaf gain.","Leave Boost and XP Boost from memberships now apply to search rewards"]}],"importantNote":"Thank you all for the feedback. <a href=\"https://discord.gg/4YkUdKQCda\" target=\"_blank\">Join our official Discord server</a>!","footerText":""},{"version":"Early Access - 0.1.3.0","date":"2026-02-09","sectionTitle":"🛡️ Patch","changes":[{"title":"Database Optimization & Security","details":["Your data is now backed up automaticly every day (last 7 days kept safe)","Database cleanup and optimization (removed old unused features to save space and improve performance)"]},{"title":"New Benefit for Memberships","details":["Subsurface Chain Chance Increased by certain %"]},{"title":"Skin Display Fix","details":["Fixed a bug where tree skins didn’t show correctly — they now display properly as intended.","Note: Skins are currently limited and can only be granted by the developer."]}],"importantNote":"Explore <a href=\"https://ko-fi.com/growyourtree/tiers\" target=\"_blank\">all memberships and benefits</a>, and <a href=\"https://discord.gg/4YkUdKQCda\" target=\"_blank\">join our official Discord server</a>!","footerText":"The next update is planned to finally launch the shop. It might take a little while, and many features will still be missing, but you may already be able to purchase and use some items, as well as tree skins."},{"version":"Early Access - 0.1.2.0","date":"2026-02-06","sectionTitle":"🛠️ Minor Patch","changes":[{"title":"Added Dark Mode to the Patch Notes Website","details":["Not mentioned in the Discord patch notes, as the change is not relevant enough."]}],"importantNote":"","footerText":""},{"version":"Early Access - 0.1.1.0","date":"2026-02-06","sectionTitle":"🛠️ Minor Patch","changes":[{"title":"Moved the Discord patch notes to the new website","details":["Reason: Improved readability on both mobile and desktop"]}],"importantNote":"<a href=\"https://discord.gg/4YkUdKQCda\">Join the Official Discord Server</a>","footerText":""},{"version":"Early Access - 0.1.0.0","date":"2026-02-05","sectionTitle":"🛠️ Minor Update","changes":[{"title":"New Developer Command /maintenance","details":["Replaces the generic update message with a dedicated maintenance notice that includes an estimated completion time.","Allows me to easily enable or disable maintenance mode, making it more user-friendly and informative for players."]},{"title":"Fixed & Improved Reminders","details":["If a user has disabled direct messages, reminders will now automatically be disabled as well."]},{"title":"Reworked Skill Reset System","details":["Based on community feedback and a logic issue on my site, players previously had to pay to reset their skill points without receiving any leaf refunds — this has now been changed.","Resetting skill points is now free, and players will receive 75% of their leaves refunded."]}],"importantNote":"Important: Found a bug? do /report, you may get rewarded!","footerText":"Hopefully another Update follows shortly!"},{"version":"Discord Patch Notes","date":"INFO","sectionTitle":"","changes":[],"importantNote":"You can find previous patch notes on the official Discord server. Version numbers start from here.\n<a href=\"https://discord.gg/4YkUdKQCda\">Join the Official Discord Server</a>","footerText":""}]
+[{"version":"Early Access 0.2.1.7","date":"2026-06-29","sectionTitle":"","changes":[{"title":"Captcha","tags":[],"details":["Reduced captcha length from 6–10 to 6–8 characters"],"subChanges":[]}],"importantNote":"Warning: If you find this captcha too hard, please reconsider your life choices.","footerText":""},{"version":"Early Access 0.2.1.6","date":"2026-06-29","sectionTitle":"🛠️Minor Change","changes":[{"title":"Skill Tree","tags":[],"details":["Added scaling details and improved descriptions."],"subChanges":[]}],"importantNote":"","footerText":""},{"version":"Early Access 0.2.1.5","date":"2026-06-28","sectionTitle":"🛠️Hot Fix","changes":[{"title":"Voting","details":["Fixed an issue where users did not receive their vote rewards after voting."],"subChanges":[]}],"importantNote":"","footerText":""},{"version":"Early Access 0.2.1.4","date":"2026-04-30","sectionTitle":"🛠️Minor Change","changes":[{"title":"Leaderboard","details":["Now displays your current rank."],"subChanges":[]}],"importantNote":"","footerText":""},{"version":"Early Access 0.2.1.3","date":"2026-03-17","sectionTitle":"🛠️Minor Change","changes":[{"title":"Removed","details":["Stock Market button. There are no plans to bring this feature back."],"subChanges":[]},{"title":"Added","details":["Changelog button for easier access to updates."],"subChanges":[]}],"importantNote":"","footerText":""},{"version":"Early Access 0.2.1.2","date":"2026-03-17","sectionTitle":"🛠️Hot Fix","changes":[{"title":"Bug Fix","details":["Fixed an issue where common loot boxes were granting higher rewards and drop rates than intended."],"subChanges":[]}],"importantNote":"","footerText":""},{"version":"Early Access 0.2.1.1","date":"2026-03-08","sectionTitle":"🛠️Minor Change","changes":[{"title":"Removed","details":["Removed coins from the main page. While the issues were fixable, the feature wasn’t necessary."],"subChanges":[]}],"importantNote":"","footerText":"Corrected the 0.2.1.0 changelog."},{"version":"Early Access 0.2.1.0","date":"2026-03-08","sectionTitle":"🛠️Minor Patch","changes":[{"title":"Bug Fixes","details":["Fixed an issue where the Tree image appeared outside the embed.","Fixed an issue where reminders were not deactivated if the bot could not send a direct message to the user."],"subChanges":[]},{"title":"Improvements / Changes","details":["Added additional information to the Shop, including Coins, Leaves.","Coins are now also shown on the main page.","Membership Lootbox rewards now show their actual icons instead of the generic 🎁 icon.","Renamed “Patch Notes” → “Changelogs” to better reflect the purpose of the updates."],"subChanges":[]}],"importantNote":"","footerText":"Pssst... <a href=\"https://ko-fi.com/growyourtree/tiers\" target=\"_blank\">Memberships</a>"},{"version":"Early Access 0.2.0.1","date":"2026-03-06","sectionTitle":"🛠️Balance Change","changes":[{"title":"Palm Tree Skin","details":["Leaf price change 105.210 -> 128.210"],"subChanges":[]}],"importantNote":"Apologies for the delayed posting of the patch notes. Don’t forget to support the developer by getting a <a href=\"https://ko-fi.com/growyourtree/tiers\" target=\"_blank\">membership</a> and <a href=\"https://discord.gg/4YkUdKQCda\" target=\"_blank\">join our official Discord server</a>!","footerText":""},{"version":"Early Access - 0.2.0.0","date":"2026-03-05","sectionTitle":"🚀Update","changes":[{"title":"Shop Release!","details":["Tree Skins (Background etc. will follow)","Items (Planned for the next Update)","Pets - Comming soon"],"subChanges":[]},{"title":"Max Level Increase 39 -> 44","details":["Max Level Increase supports the following skins: Sheep,Birch,Palm.","Improved roots graphics for Levels 35–39."],"subChanges":[]},{"title":"Upgrade Page","details":["Now displays when each upgrade unlocks and when the maximum level increases."],"subChanges":[]},{"title":"Reminder System","details":["Improved Database Performance"],"subChanges":[{"title":"New Reminder","details":["Allow yourself to be reminded when you can vote again"]}]}],"importantNote":"Apologies for the delayed posting of the patch notes. Don’t forget to support the developer by getting a <a href=\"https://ko-fi.com/growyourtree/tiers\" target=\"_blank\">membership</a> and <a href=\"https://discord.gg/4YkUdKQCda\" target=\"_blank\">join our official Discord server</a>!","footerText":""},{"version":"Early Access - 0.1.4.0","date":"2026-02-10","sectionTitle":"🛠️ Minor Patch","changes":[{"title":"Search System Update","details":["Code improvements for search system","You now earn XP for claiming searches! Upgrades affect XP gain, but do not affect leaf gain.","Leave Boost and XP Boost from memberships now apply to search rewards"]}],"importantNote":"Thank you all for the feedback. <a href=\"https://discord.gg/4YkUdKQCda\" target=\"_blank\">Join our official Discord server</a>!","footerText":""},{"version":"Early Access - 0.1.3.0","date":"2026-02-09","sectionTitle":"🛡️ Patch","changes":[{"title":"Database Optimization & Security","details":["Your data is now backed up automaticly every day (last 7 days kept safe)","Database cleanup and optimization (removed old unused features to save space and improve performance)"]},{"title":"New Benefit for Memberships","details":["Subsurface Chain Chance Increased by certain %"]},{"title":"Skin Display Fix","details":["Fixed a bug where tree skins didn’t show correctly — they now display properly as intended.","Note: Skins are currently limited and can only be granted by the developer."]}],"importantNote":"Explore <a href=\"https://ko-fi.com/growyourtree/tiers\" target=\"_blank\">all memberships and benefits</a>, and <a href=\"https://discord.gg/4YkUdKQCda\" target=\"_blank\">join our official Discord server</a>!","footerText":"The next update is planned to finally launch the shop. It might take a little while, and many features will still be missing, but you may already be able to purchase and use some items, as well as tree skins."},{"version":"Early Access - 0.1.2.0","date":"2026-02-06","sectionTitle":"🛠️ Minor Patch","changes":[{"title":"Added Dark Mode to the Patch Notes Website","details":["Not mentioned in the Discord patch notes, as the change is not relevant enough."]}],"importantNote":"","footerText":""},{"version":"Early Access - 0.1.1.0","date":"2026-02-06","sectionTitle":"🛠️ Minor Patch","changes":[{"title":"Moved the Discord patch notes to the new website","details":["Reason: Improved readability on both mobile and desktop"]}],"importantNote":"<a href=\"https://discord.gg/4YkUdKQCda\">Join the Official Discord Server</a>","footerText":""},{"version":"Early Access - 0.1.0.0","date":"2026-02-05","sectionTitle":"🛠️ Minor Update","changes":[{"title":"New Developer Command /maintenance","details":["Replaces the generic update message with a dedicated maintenance notice that includes an estimated completion time.","Allows me to easily enable or disable maintenance mode, making it more user-friendly and informative for players."]},{"title":"Fixed & Improved Reminders","details":["If a user has disabled direct messages, reminders will now automatically be disabled as well."]},{"title":"Reworked Skill Reset System","details":["Based on community feedback and a logic issue on my site, players previously had to pay to reset their skill points without receiving any leaf refunds — this has now been changed.","Resetting skill points is now free, and players will receive 75% of their leaves refunded."]}],"importantNote":"Important: Found a bug? do /report, you may get rewarded!","footerText":"Hopefully another Update follows shortly!"},{"version":"Discord Patch Notes","date":"INFO","sectionTitle":"","changes":[],"importantNote":"You can find previous patch notes on the official Discord server. Version numbers start from here.\n<a href=\"https://discord.gg/4YkUdKQCda\">Join the Official Discord Server</a>","footerText":""}]
 </script>
 
 <script>
